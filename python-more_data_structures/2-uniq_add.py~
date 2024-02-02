@@ -1,9 +1,0 @@
-#!/usr/bin/python3
-def uniq_add(my_list=[]):
-    my_new_set = set()
-
-    for element in my_list:
-        if element not in my_new_set:
-            my_new_set.add(element)
-
-    return my_new_set
